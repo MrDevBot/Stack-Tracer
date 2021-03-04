@@ -19,6 +19,6 @@ private static void GlobalErrorSupression(object sender, ThreadExceptionEventArg
         Debugger.LiveTracer();
         Debugger.Post(0, "[SUPRESSION] " + "GlobalErrorSupression triggerd");
         MessageBox.Show(e.Exception.Message.ToString(), "MoonShine | Unknown Error");
-        }
+}
 ```
 note: "GlobalErrorSupression" is not required but strongly recommended when trying to catch exceptions
